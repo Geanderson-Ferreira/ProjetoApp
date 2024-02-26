@@ -1,0 +1,40 @@
+######## ANOTACOES DO DEV
+
+#    Comandos alembic
+
+#    >> alembic init migrations
+#    >> alembic revision --autogenerate -m "primeira migration"
+#    >> alembic upgrade head
+#    >> alembic downgrade -1
+
+######  END ANOTACOES DO DEV
+#ale
+
+#Para rodar a API, esteja no mesmo diretorio desde arquivo e rodar:
+#>> uvicorn api:app
+#>> uvicorn api:app --host 10.0.0.102 --port 8000 --reload
+#>> uvicorn api:app --host 192.168.0.113 --port 8000 --reload
+#>> uvicorn api:app --host 192.168.1.14 --port 8000 --reload
+
+
+
+
+JWT
+
+
+user:   user + pass -> server
+
+server: match(user, pass)
+
+if true:
+    server -> token
+
+Server envia Token para o Front,
+    tempodevida
+    
+front armazena esse token
+enquanto front armazena o token, mantem a session
+
+
+
+
